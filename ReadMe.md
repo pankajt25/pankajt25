@@ -41,7 +41,7 @@
 
 <div align="center">
 
-<img src="./contributions-card.svg" width="50%" alt="Contribution Graph" />
+<img src="./contributions-card.svg" width="70%" alt="Contribution Graph" />
 
 <br/><br/>
 
