@@ -1,0 +1,41 @@
+name: Update Profile Cards
+
+on:
+  schedule:
+    # Runs once a day at 00:15 UTC (~5:45 AM IST). Edit the cron to change frequency.
+    - cron: "15 0 * * *"
+  workflow_dispatch: {}   # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-cards:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate cards from live GitHub data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: pankajt25
+          UTC_OFFSET_HOURS: "5.5"
+        run: python .github/scripts/generate_cards.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add stats-card.svg languages-card.svg commits-by-hour-card.svg contributions-card.svg
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: auto-update profile cards [skip ci]"
+            git push
+          fi
