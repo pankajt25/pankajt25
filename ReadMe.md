@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/pankajt25/assets/main/nightlight.gif" width="100%" alt="banner" />
+<img src="https://raw.githubusercontent.com/pankajt25/assets/main/nightlight.gif" width="80%" alt="banner" />
 
 <h1>Hi there, I'm Pankaj 👋</h1>
 
@@ -33,17 +33,18 @@
 ### 📊 GitHub Stats
 
 <!--
-  Primary: GPRM-generated stats. If GPRM's API is down, these images may fail
-  to load or show broken/stale caches — the fallback section below (static
-  badges) keeps the profile from ever looking empty.
+  Primary: github-readme-stats + streak-stats (Vercel-hosted, actively
+  maintained, much higher uptime than GPRM). GPRM itself just wraps these
+  same kinds of sources, so it inherits their downtime plus its own —
+  going direct removes a point of failure.
 -->
 
 <div align="center">
 
-<img src="https://gprm.itsvg.in/api/generate/stats?username=pankajt25" width="48%" alt="GitHub Stats" />
-<img src="https://gprm.itsvg.in/api/generate/streak?username=pankajt25" width="48%" alt="GitHub Streak" />
+<img src="https://github-readme-stats.vercel.app/api?username=pankajt25&show_icons=true&theme=radical&hide_border=true" width="48%" alt="GitHub Stats" />
+<img src="https://streak-stats.demolab.com/?user=pankajt25&theme=radical&hide_border=true" width="48%" alt="GitHub Streak" />
 
-<img src="https://gprm.itsvg.in/api/generate/languages?username=pankajt25" width="48%" alt="Top Languages" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pankajt25&layout=compact&theme=radical&hide_border=true" width="48%" alt="Top Languages" />
 
 </div>
 
@@ -52,7 +53,14 @@
 
 <br/>
 
-GPRM's stats sometimes go down due to upstream API rate limits. Here are static badges as a backup:
+If the Vercel-hosted widgets above ever go down, here's a second layer of fallback — first GPRM, then plain static badges:
+
+<div align="center">
+
+<img src="https://gprm.itsvg.in/api/generate/stats?username=pankajt25" width="48%" alt="GitHub Stats (GPRM)" />
+<img src="https://gprm.itsvg.in/api/generate/streak?username=pankajt25" width="48%" alt="GitHub Streak (GPRM)" />
+
+</div>
 
 <div align="center">
 
