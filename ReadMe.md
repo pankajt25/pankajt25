@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/pankajt25/assets/main/nightlight.gif" width="80%" alt="banner" />
+<img src="https://raw.githubusercontent.com/pankajt25/assets/main/nightlight.gif" width="100%" alt="banner" />
 
 <h1>Hi there, I'm Pankaj 👋</h1>
 
@@ -30,47 +30,18 @@
 
 ---
 
-### 📊 GitHub Stats
+### 📊 Profile Summary
 
 <!--
-  Primary: github-readme-stats + streak-stats (Vercel-hosted, actively
-  maintained, much higher uptime than GPRM). GPRM itself just wraps these
-  same kinds of sources, so it inherits their downtime plus its own —
-  going direct removes a point of failure.
+  Static SVG card — lives in this repo, no external API calls, so it
+  never breaks, never rate-limits, and never shows broken images.
 -->
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=pankajt25&show_icons=true&theme=radical&hide_border=true" width="48%" alt="GitHub Stats" />
-<img src="https://streak-stats.demolab.com/?user=pankajt25&theme=radical&hide_border=true" width="48%" alt="GitHub Streak" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pankajt25&layout=compact&theme=radical&hide_border=true" width="48%" alt="Top Languages" />
+<img src="./profile-card.svg" width="90%" alt="Profile Summary Card" />
 
 </div>
-
-<details>
-<summary>⚠️ Stats not loading? Click for fallback</summary>
-
-<br/>
-
-If the Vercel-hosted widgets above ever go down, here's a second layer of fallback — first GPRM, then plain static badges:
-
-<div align="center">
-
-<img src="https://gprm.itsvg.in/api/generate/stats?username=pankajt25" width="48%" alt="GitHub Stats (GPRM)" />
-<img src="https://gprm.itsvg.in/api/generate/streak?username=pankajt25" width="48%" alt="GitHub Streak (GPRM)" />
-
-</div>
-
-<div align="center">
-
-![GitHub followers](https://img.shields.io/github/followers/pankajt25?style=for-the-badge&color=blueviolet)
-![GitHub stars](https://img.shields.io/github/stars/pankajt25?style=for-the-badge&color=blueviolet)
-![Profile repos](https://img.shields.io/badge/dynamic/json?color=blueviolet&label=Public%20Repos&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2Fpankajt25&style=for-the-badge)
-
-</div>
-
-</details>
 
 ---
 
