@@ -1,0 +1,44 @@
+<svg width="360" height="200" viewBox="0 0 360 200" xmlns="http://www.w3.org/2000/svg">
+  <rect x="1" y="1" width="358" height="198" rx="12" fill="#0d1117" stroke="#2d3341" stroke-width="1"/>
+
+  <text x="24" y="34" font-family="Segoe UI, Verdana, sans-serif" font-size="17" font-weight="700" fill="#4a90e2">Commits (UTC +5.30)</text>
+  <text x="336" y="176" font-family="Segoe UI, Verdana, sans-serif" font-size="10" fill="#8b949e" text-anchor="end">per day hour</text>
+
+  <!-- axis -->
+  <line x1="40" y1="160" x2="336" y2="160" stroke="#30363d" stroke-width="1"/>
+
+  <!-- bars: 24 hourly values, heavier evening/night -->
+  <g fill="#3fb950">
+    <rect x="42"  y="156" width="9" height="4"/>
+    <rect x="54"  y="152" width="9" height="8"/>
+    <rect x="66"  y="148" width="9" height="12"/>
+    <rect x="78"  y="140" width="9" height="20"/>
+    <rect x="90"  y="150" width="9" height="10"/>
+    <rect x="102" y="156" width="9" height="4"/>
+    <rect x="114" y="158" width="9" height="2"/>
+    <rect x="126" y="158" width="9" height="2"/>
+    <rect x="138" y="156" width="9" height="4"/>
+    <rect x="150" y="148" width="9" height="12"/>
+    <rect x="162" y="132" width="9" height="28"/>
+    <rect x="174" y="120" width="9" height="40"/>
+    <rect x="186" y="128" width="9" height="32"/>
+    <rect x="198" y="140" width="9" height="20"/>
+    <rect x="210" y="150" width="9" height="10"/>
+    <rect x="222" y="144" width="9" height="16"/>
+    <rect x="234" y="132" width="9" height="28"/>
+    <rect x="246" y="112" width="9" height="48"/>
+    <rect x="258" y="100" width="9" height="60"/>
+    <rect x="270" y="96"  width="9" height="64"/>
+    <rect x="282" y="108" width="9" height="52"/>
+    <rect x="294" y="120" width="9" height="40"/>
+    <rect x="306" y="136" width="9" height="24"/>
+    <rect x="318" y="148" width="9" height="12"/>
+  </g>
+
+  <g font-family="Segoe UI, Verdana, sans-serif" font-size="10" fill="#8b949e">
+    <text x="42" y="176">0</text>
+    <text x="146" y="176">6</text>
+    <text x="245" y="176">12</text>
+    <text x="322" y="176">23</text>
+  </g>
+</svg>

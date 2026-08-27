@@ -33,13 +33,24 @@
 ### 📊 Profile Summary
 
 <!--
-  Static SVG card — lives in this repo, no external API calls, so it
-  never breaks, never rate-limits, and never shows broken images.
+  All cards below are static SVGs living in this repo — no external API
+  calls, so they never break, rate-limit, or show broken images.
+  Numbers are placeholders — edit the <text> values directly inside each
+  .svg file whenever you want to update them.
 -->
 
 <div align="center">
 
-<img src="./profile-card.svg" width="90%" alt="Profile Summary Card" />
+<img src="./contributions-card.svg" width="90%" alt="Contribution Graph" />
+
+<br/><br/>
+
+<img src="./stats-card.svg" width="42%" alt="Stats" />
+<img src="./languages-card.svg" width="42%" alt="Top Languages" />
+
+<br/><br/>
+
+<img src="./commits-by-hour-card.svg" width="90%" alt="Commits by Hour" />
 
 </div>
 
