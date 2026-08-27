@@ -1,37 +1,10 @@
 <svg width="340" height="200" viewBox="0 0 340 200" xmlns="http://www.w3.org/2000/svg">
   <rect x="1" y="1" width="338" height="198" rx="12" fill="#0d1117" stroke="#2d3341" stroke-width="1"/>
-
   <text x="24" y="34" font-family="Segoe UI, Verdana, sans-serif" font-size="18" font-weight="700" fill="#4a90e2">Top Languages by Repo</text>
-
-  <!-- Legend -->
   <g font-family="Segoe UI, Verdana, sans-serif" font-size="13" fill="#c9d1d9">
-    <rect x="24" y="56" width="12" height="12" fill="#e2542b"/>
-    <text x="42" y="66">HTML</text>
-
-    <rect x="24" y="80" width="12" height="12" fill="#f1e05a"/>
-    <text x="42" y="90">JavaScript</text>
-
-    <rect x="24" y="104" width="12" height="12" fill="#3572A5"/>
-    <text x="42" y="114">Python</text>
-
-    <rect x="24" y="128" width="12" height="12" fill="#b07219"/>
-    <text x="42" y="138">Java</text>
-
-    <rect x="24" y="152" width="12" height="12" fill="#555555"/>
-    <text x="42" y="162">C</text>
+    <rect x="24" y="56" width="12" height="12" fill="#f1e05a"/><text x="42" y="66">JavaScript</text><rect x="24" y="80" width="12" height="12" fill="#3178c6"/><text x="42" y="90">TypeScript</text><rect x="24" y="104" width="12" height="12" fill="#b07219"/><text x="42" y="114">Java</text><rect x="24" y="128" width="12" height="12" fill="#e2542b"/><text x="42" y="138">HTML</text><rect x="24" y="152" width="12" height="12" fill="#555555"/><text x="42" y="162">C</text>
   </g>
-
-  <!-- Donut chart: 5 segments -->
-  <g transform="translate(255,110)">
-    <!-- HTML 38% -->
-    <path d="M 0 -55 A 55 55 0 0 1 47.6 26.5 L 27.7 15.4 A 32 32 0 0 0 0 -32 Z" fill="#e2542b"/>
-    <!-- JavaScript 22% -->
-    <path d="M 47.6 26.5 A 55 55 0 0 1 -14 53.4 L -8.1 31.1 A 32 32 0 0 0 27.7 15.4 Z" fill="#f1e05a"/>
-    <!-- Python 18% -->
-    <path d="M -14 53.4 A 55 55 0 0 1 -50.6 -14.9 L -29.4 -8.7 A 32 32 0 0 0 -8.1 31.1 Z" fill="#3572A5"/>
-    <!-- Java 14% -->
-    <path d="M -50.6 -14.9 A 55 55 0 0 1 -25.3 -48.4 L -14.7 -28.2 A 32 32 0 0 0 -29.4 -8.7 Z" fill="#b07219"/>
-    <!-- C 8% -->
-    <path d="M -25.3 -48.4 A 55 55 0 0 1 0 -55 L 0 -32 A 32 32 0 0 0 -14.7 -28.2 Z" fill="#555555"/>
+  <g transform="translate(255, 105)">
+    <path d="M 0.0 -55.0 A 55 55 0 0 1 47.6 27.5 L 27.7 16.0 A 32 32 0 0 0 0.0 -32.0 Z" fill="#f1e05a"/><path d="M 47.6 27.5 A 55 55 0 0 1 -27.5 47.6 L -16.0 27.7 A 32 32 0 0 0 27.7 16.0 Z" fill="#3178c6"/><path d="M -27.5 47.6 A 55 55 0 0 1 -55.0 0.0 L -32.0 0.0 A 32 32 0 0 0 -16.0 27.7 Z" fill="#b07219"/><path d="M -55.0 0.0 A 55 55 0 0 1 -27.5 -47.6 L -16.0 -27.7 A 32 32 0 0 0 -32.0 0.0 Z" fill="#e2542b"/><path d="M -27.5 -47.6 A 55 55 0 0 1 -0.0 -55.0 L -0.0 -32.0 A 32 32 0 0 0 -16.0 -27.7 Z" fill="#555555"/>
   </g>
 </svg>
