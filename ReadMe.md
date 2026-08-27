@@ -39,9 +39,9 @@
   .svg file whenever you want to update them.
 -->
 
-<div align="center">
+<div align="left">
 
-<img src="./contributions-card.svg" width="70%" alt="Contribution Graph" />
+<img src="./contributions-card.svg" width="85%" alt="Contribution Graph" />
 
 <br/><br/>
 
