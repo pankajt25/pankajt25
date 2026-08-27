@@ -229,7 +229,7 @@ def render_commits_by_hour_card(hours):
     return f"""<svg width="360" height="200" viewBox="0 0 360 200" xmlns="http://www.w3.org/2000/svg">
   <rect x="1" y="1" width="358" height="198" rx="12" fill="#0d1117" stroke="#2d3341" stroke-width="1"/>
   <text x="24" y="34" font-family="Segoe UI, Verdana, sans-serif" font-size="17" font-weight="700" fill="#4a90e2">Commits (UTC +{UTC_OFFSET_HOURS:.2f})</text>
-  <text x="336" y="176" font-family="Segoe UI, Verdana, sans-serif" font-size="10" fill="#8b949e" text-anchor="end">per day hour</text>
+  <text x="336" y="34" font-family="Segoe UI, Verdana, sans-serif" font-size="10" fill="#8b949e" text-anchor="end">per day hour</text>
   <line x1="40" y1="160" x2="336" y2="160" stroke="#30363d" stroke-width="1"/>
   <g fill="#3fb950">
     {''.join(bars)}
