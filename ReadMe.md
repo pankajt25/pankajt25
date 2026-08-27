@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/pankajt25/assets/main/nightlight.gif" width="100%" alt="banner" />
+<img src="https://raw.githubusercontent.com/pankajt25/assets/main/nightlight.gif" width="80%" alt="banner" />
 
 <h1>Hi there, I'm Pankaj 👋</h1>
 
@@ -41,7 +41,7 @@
 
 <div align="center">
 
-<img src="./contributions-card.svg" width="90%" alt="Contribution Graph" />
+<img src="./contributions-card.svg" width="50%" alt="Contribution Graph" />
 
 <br/><br/>
 
@@ -50,7 +50,7 @@
 
 <br/><br/>
 
-<img src="./commits-by-hour-card.svg" width="90%" alt="Commits by Hour" />
+<img src="./commits-by-hour-card.svg" width="50%" alt="Commits by Hour" />
 
 </div>
 
