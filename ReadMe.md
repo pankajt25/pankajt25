@@ -1,10 +1,12 @@
-<div align="center">
 
-<img src="https://raw.githubusercontent.com/pankajt25/assets/main/nightlight.gif" width="100%" alt="banner" />
-
-<h1>Hi there, I'm Pankaj 👋</h1>
+<h1>Hi there, I'm Pankaj </h1>
 
 <p>Third-year B.Tech IT student · Building things, breaking things, fixing things</p>
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/pankajt25/assets/main/nightlight.gif" width="70%" alt="banner" />
+
+
 
 <img src="https://komarev.com/ghpvc/?username=pankajt25&label=Profile%20Views&color=blueviolet&style=flat" alt="profile views" />
 
@@ -12,13 +14,13 @@
 
 <br/>
 
-## 🚀 About Me
+##  About Me
 
-- 🎓 Currently pursuing B.Tech in Information Technology
-- 💻 Working on projects across software design, theory of computation, and physics
-- 🎯 Preparing for placements (product & service-based companies)
-- 🌐 Exploring freelance web development for small businesses
-- ⚡ Fun fact: this README keeps working even when the GitHub stats API doesn't 😄
+-  Currently pursuing B.Tech in Information Technology
+-  Working on projects across software design, theory of computation, and physics
+-  Preparing for placements (product & service-based companies)
+-  Exploring freelance web development for small businesses
+-  Fun fact: this README keeps working even when the GitHub stats API doesn't 😄
 
 <br/>
 
