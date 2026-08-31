@@ -4,7 +4,9 @@
 <p>Third-year B.Tech IT student · Building things, breaking things, fixing things</p>
 <div align="center">
 
+
 <img src="https://raw.githubusercontent.com/pankajt25/assets/main/nightlight.gif" width="70%" alt="banner" />
+<br/>
 
 
 
