@@ -153,9 +153,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Building things, breaking things, fixing things.
+> To be truly positive in the eyes of some, you have to risk appearing negative in the eyes of others.
 >
-> — Pankaj
+> — Criss Jami
 <!-- QUOTE:END -->
 
 <br/>
