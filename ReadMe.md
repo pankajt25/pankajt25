@@ -87,6 +87,16 @@
 
 <br/>
 
+## 💭 Thought of the Day
+
+<!-- QUOTE:START -->
+> Building things, breaking things, fixing things.
+>
+> — Pankaj
+<!-- QUOTE:END -->
+
+<br/>
+
 <div align="center">
   <sub>Thanks for stopping by — feel free to explore my pinned repos below ⬇️</sub>
 </div>
