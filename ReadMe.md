@@ -6,14 +6,14 @@
 
 <p>Third-year B.Tech IT student · Building things, breaking things, fixing things</p>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=4A90E2&center=true&vCenter=true&width=600&lines=Preparing+for+placements+%F0%9F%8E%AF;Exploring+freelance+web+dev+%F0%9F%8C%90;Always+building+something+new+%F0%9F%9A%80" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=4A90E2&center=true&vCenter=true&width=600&lines=Preparing+for+placements+%F0%9F%8E%AF;Exploring+new+technologies+%F0%9F%94%AC;Always+building+something+new+%F0%9F%9A%80" alt="Typing SVG" />
 
 <img src="https://komarev.com/ghpvc/?username=pankajt25&label=Profile%20Views&color=blueviolet&style=flat" alt="profile views" />
 
 <br/>
 
 <a href="https://www.linkedin.com/in/pankaj-tike-48ab02324" target="_blank"><img src="https://img.shields.io/badge/Open%20to-Opportunities-brightgreen?style=for-the-badge" alt="Open to opportunities" /></a>
-<img src="https://img.shields.io/badge/Freelance-Available-orange?style=for-the-badge" alt="Freelance available" />
+<img src="https://img.shields.io/badge/Exploring-New%20Technologies-orange?style=for-the-badge" alt="Exploring new technologies" />
 
 </div>
 
@@ -26,7 +26,7 @@
 - 🎓 Currently pursuing B.Tech in Information Technology
 - 💻 Working on projects across software design, theory of computation, and physics
 - 🎯 Preparing for placements (product & service-based companies)
-- 🌐 Exploring freelance web development for small businesses
+- 🌐 Exploring new technologies and tools
 - ⚡ Fun fact: this README keeps working even when the GitHub stats API doesn't 😄
 
 <br/>
@@ -49,7 +49,7 @@
 - 🧠 Data Structures & Algorithms — sharpening for placement rounds
 - 🏗️ System Design fundamentals
 - ⚛️ Advanced React patterns (state management, performance)
-- 🔐 Web security basics for freelance client work
+- 🔐 Web security basics
 
 <br/>
 
@@ -65,17 +65,17 @@
 <table>
   <tr>
     <td width="50%">
-      <h3 align="center">🍽️ QR Digital Menu</h3>
-      <p align="center">QR-based digital menu & ordering system for restaurants — built as a B.Tech design project.</p>
+      <h3 align="center">🛡️ WebGuard-scrapeverse</h3>
+      <p align="center">Self-healing web scraper — detects site changes and auto-repairs itself via GitHub Actions.</p>
       <p align="center">
-        <a href="https://github.com/pankajt25/qr-digital-menu" target="_blank"><img src="https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white" /></a>
+        <a href="https://github.com/pankajt25/WebGuard-scrapeverse" target="_blank"><img src="https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white" /></a>
       </p>
     </td>
     <td width="50%">
-      <h3 align="center">💪 FitForge</h3>
-      <p align="center">Fitness app with gym handbook reference material and a React-based web experience.</p>
+      <h3 align="center">🧠 Cerebro</h3>
+      <p align="center">Automation and agent-based tooling project.</p>
       <p align="center">
-        <a href="https://github.com/pankajt25/fitforge" target="_blank"><img src="https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white" /></a>
+        <a href="https://github.com/pankajt25/Cerebro" target="_blank"><img src="https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white" /></a>
       </p>
     </td>
 
@@ -153,9 +153,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Routine life is unbearable, and most people only think about how to escape into the world of fantasy and dreams.
+> Building things, breaking things, fixing things.
 >
-> — Robert Greene
+> — Pankaj
 <!-- QUOTE:END -->
 
 <br/>
