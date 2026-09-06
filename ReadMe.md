@@ -94,9 +94,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Success is going from failure to failure without losing your enthusiasm
+> Adventure is worthwhile in itself.
 >
-> — Winston Churchill
+> — Amelia Earhart
 <!-- QUOTE:END -->
 
 <br/>
