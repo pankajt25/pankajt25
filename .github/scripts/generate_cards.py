@@ -133,7 +133,8 @@ def commit_hour_histogram(repos, max_repos=6, max_commits_per_repo=100):
             if not date_str:
                 continue
             dt = datetime.datetime.strptime(date_str, "%Y-%m-%dT%H:%M:%SZ")
-            local_hour = int((dt.hour + UTC_OFFSET_HOURS) % 24)
+            local_dt = dt + datetime.timedelta(hours=UTC_OFFSET_HOURS)
+            local_hour = local_dt.hour
             hours[local_hour] += 1
     return hours
 
