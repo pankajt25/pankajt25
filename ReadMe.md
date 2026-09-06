@@ -1,12 +1,12 @@
 <div align="center">
 
-<h1>Hi there, I'm Pankaj 👋</h1>
+<h1>Hi there, I'm Pankaj 👋</h1><br><br>
+<p>Third-year B.Tech IT student · Building things, breaking things, fixing things</p>
 
-<img src="https://raw.githubusercontent.com/pankajt25/assets/main/nightlight.gif" width="80%" alt="banner" />
+<img src="https://raw.githubusercontent.com/pankajt25/assets/main/nightlight.gif" width="80%" alt="banner" /><br><br>
 
 <img src="https://komarev.com/ghpvc/?username=pankajt25&label=Profile%20Views&color=blueviolet&style=flat" alt="profile views" />
 
-<p>Third-year B.Tech IT student · Building things, breaking things, fixing things</p>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=4A90E2&center=true&vCenter=true&width=600&lines=Preparing+for+placements+%F0%9F%8E%AF;Exploring+new+technologies+%F0%9F%94%AC;Always+building+something+new+%F0%9F%9A%80" alt="Typing SVG" />
 
