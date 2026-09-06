@@ -153,9 +153,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Building things, breaking things, fixing things.
+> Routine life is unbearable, and most people only think about how to escape into the world of fantasy and dreams.
 >
-> — Pankaj
+> — Robert Greene
 <!-- QUOTE:END -->
 
 <br/>
