@@ -1,6 +1,8 @@
 name: Update Profile Cards
 
 on:
+  push:
+    branches: [main]
   schedule:
     # Runs once a day at 00:15 UTC (~5:45 AM IST). Edit the cron to change frequency.
     - cron: "15 0 * * *"
