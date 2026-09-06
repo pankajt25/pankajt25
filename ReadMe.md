@@ -1,14 +1,14 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/pankajt25/assets/main/nightlight.gif" width="100%" alt="banner" />
-
 <h1>Hi there, I'm Pankaj 👋</h1>
+
+<img src="https://raw.githubusercontent.com/pankajt25/assets/main/nightlight.gif" width="80%" alt="banner" />
+
+<img src="https://komarev.com/ghpvc/?username=pankajt25&label=Profile%20Views&color=blueviolet&style=flat" alt="profile views" />
 
 <p>Third-year B.Tech IT student · Building things, breaking things, fixing things</p>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=4A90E2&center=true&vCenter=true&width=600&lines=Preparing+for+placements+%F0%9F%8E%AF;Exploring+new+technologies+%F0%9F%94%AC;Always+building+something+new+%F0%9F%9A%80" alt="Typing SVG" />
-
-<img src="https://komarev.com/ghpvc/?username=pankajt25&label=Profile%20Views&color=blueviolet&style=flat" alt="profile views" />
 
 <br/>
 
@@ -135,7 +135,7 @@
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=pankajt25&theme=radical&no-frame=true&column=4&margin-w=10&margin-h=10" alt="GitHub Trophies" />
+  <img src="./trophies.svg" alt="GitHub Trophies" />
 </div>
 
 <br/>

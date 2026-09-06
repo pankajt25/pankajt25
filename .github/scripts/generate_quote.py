@@ -38,7 +38,7 @@ def fetch_quote():
             return data["content"], data["author"]
     except Exception as e:
         print(f"WARN: fallback quote API also failed ({e})")
-        return "Building things, breaking things, fixing things.", "Pankaj"
+        return "The way to get started is to quit talking and begin doing.", "Walt Disney"
 
 
 def main():
