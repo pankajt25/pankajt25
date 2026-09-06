@@ -15,10 +15,10 @@ README_PATH = os.environ.get("README_PATH", "ReadMe.md")
 START_MARKER = "<!-- QUOTE:START -->"
 END_MARKER = "<!-- QUOTE:END -->"
 
-# quotable.io is a free, no-key-required quotes API.
-API_URL = "https://api.quotable.io/random"
-# Fallback API in case the primary is down.
-FALLBACK_URL = "https://zenquotes.io/api/random"
+# zenquotes.io is the primary — reliable, no key required.
+API_URL = "https://zenquotes.io/api/random"
+# quotable.io kept as a secondary fallback.
+FALLBACK_URL = "https://api.quotable.io/random"
 
 
 def fetch_quote():
@@ -26,7 +26,8 @@ def fetch_quote():
     try:
         with urllib.request.urlopen(req, timeout=15) as resp:
             data = json.loads(resp.read().decode())
-            return data["content"], data["author"]
+            item = data[0]
+            return item["q"], item["a"]
     except Exception as e:
         print(f"WARN: primary quote API failed ({e}), trying fallback")
 
@@ -34,8 +35,7 @@ def fetch_quote():
     try:
         with urllib.request.urlopen(req, timeout=15) as resp:
             data = json.loads(resp.read().decode())
-            item = data[0]
-            return item["q"], item["a"]
+            return data["content"], data["author"]
     except Exception as e:
         print(f"WARN: fallback quote API also failed ({e})")
         return "Building things, breaking things, fixing things.", "Pankaj"
