@@ -94,9 +94,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Building things, breaking things, fixing things.
+> Success is going from failure to failure without losing your enthusiasm
 >
-> — Pankaj
+> — Winston Churchill
 <!-- QUOTE:END -->
 
 <br/>
