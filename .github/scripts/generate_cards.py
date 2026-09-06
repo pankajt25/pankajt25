@@ -57,6 +57,67 @@ def graphql(query, variables=None):
 # ---------------------------------------------------------------------------
 # 1. Fetch all repos (owned, not forks) for stars + languages
 # ---------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
+# 4. Real trophies — computed from the same GitHub API data above, no
+#    third-party rendering service involved (those are unreliable).
+# ---------------------------------------------------------------------------
+def fetch_user_profile():
+    return rest_get(f"/users/{USERNAME}") or {}
+
+
+TROPHY_TIERS = [
+    (1000, "SSS"), (500, "SS"), (100, "S"),
+    (50, "AAA"), (20, "AA"), (10, "A"),
+    (3, "B"), (1, "C"),
+]
+
+
+def tier_for(value):
+    for threshold, label in TROPHY_TIERS:
+        if value >= threshold:
+            return label
+    return "UNKNOWN"
+
+
+TIER_COLORS = {
+    "SSS": "#f1c40f", "SS": "#f1c40f", "S": "#f1c40f",
+    "AAA": "#e67e22", "AA": "#e67e22", "A": "#e67e22",
+    "B": "#3498db", "C": "#3498db", "UNKNOWN": "#4a4a4a",
+}
+
+
+def render_trophies_card(stars, commits, prs, issues, followers, repo_count):
+    items = [
+        ("⭐", "Stars", stars),
+        ("⎇", "Commits", commits),
+        ("⑂", "Pull Requests", prs),
+        ("❗", "Issues", issues),
+        ("👥", "Followers", followers),
+        ("📦", "Repositories", repo_count),
+    ]
+    card_w, card_h, gap = 150, 130, 12
+    total_w = len(items) * card_w + (len(items) - 1) * gap + 20
+    blocks = []
+    for i, (icon, label, value) in enumerate(items):
+        tier = tier_for(value)
+        color = TIER_COLORS[tier]
+        x = 10 + i * (card_w + gap)
+        blocks.append(f'''
+    <g transform="translate({x},10)">
+      <rect width="{card_w}" height="{card_h}" rx="10" fill="#0d1117" stroke="{color}" stroke-width="1.5"/>
+      <text x="{card_w/2}" y="34" font-family="Segoe UI, Verdana, sans-serif" font-size="24" text-anchor="middle">{icon}</text>
+      <text x="{card_w/2}" y="60" font-family="Segoe UI, Verdana, sans-serif" font-size="11" fill="#8b949e" text-anchor="middle">{label}</text>
+      <text x="{card_w/2}" y="90" font-family="Segoe UI, Verdana, sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">{value}</text>
+      <text x="{card_w/2}" y="112" font-family="Segoe UI, Verdana, sans-serif" font-size="13" font-weight="700" fill="{color}" text-anchor="middle">{tier}</text>
+    </g>''')
+
+    return f'''<svg width="{total_w}" height="150" viewBox="0 0 {total_w} 150" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="{total_w}" height="150" rx="12" fill="#0d1117"/>
+  {''.join(blocks)}
+</svg>
+'''
+
+
 def fetch_repos():
     repos, page = [], 1
     while True:
@@ -309,6 +370,10 @@ def main():
 
     hours = commit_hour_histogram(repos)
 
+    profile = fetch_user_profile()
+    followers = profile.get("followers", 0)
+    repo_count = len(repos)
+
     out_dir = os.environ.get("OUTPUT_DIR", ".")
     with open(os.path.join(out_dir, "stats-card.svg"), "w") as f:
         f.write(render_stats_card(stars, commits, prs, issues, contributed_to))
@@ -316,6 +381,8 @@ def main():
         f.write(render_languages_card(langs))
     with open(os.path.join(out_dir, "commits-by-hour-card.svg"), "w") as f:
         f.write(render_commits_by_hour_card(hours))
+    with open(os.path.join(out_dir, "trophies.svg"), "w") as f:
+        f.write(render_trophies_card(stars, commits, prs, issues, followers, repo_count))
     with open(os.path.join(out_dir, "contributions-card.svg"), "w") as f:
         f.write(render_contributions_card(weeks))
 

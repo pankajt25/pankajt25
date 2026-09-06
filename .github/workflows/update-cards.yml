@@ -34,7 +34,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add stats-card.svg languages-card.svg commits-by-hour-card.svg contributions-card.svg
+          git add stats-card.svg languages-card.svg commits-by-hour-card.svg contributions-card.svg trophies.svg
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else

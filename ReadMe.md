@@ -135,7 +135,7 @@
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="./trophies.svg" alt="GitHub Trophies" />
+  <img src="./trophies.svg" width="90%" alt="GitHub Trophies" />
 </div>
 
 <br/>
