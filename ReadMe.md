@@ -153,9 +153,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> To be truly positive in the eyes of some, you have to risk appearing negative in the eyes of others.
+> To create more positive results in your life, replace 'if only' with 'next time'.
 >
-> — Criss Jami
+> — Celestine Chua
 <!-- QUOTE:END -->
 
 <br/>
