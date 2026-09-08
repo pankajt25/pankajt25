@@ -153,9 +153,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> To create more positive results in your life, replace 'if only' with 'next time'.
+> The positive thinker sees the invisible, feels the intangible, and achieves the impossible.
 >
-> — Celestine Chua
+> — Winston Churchill
 <!-- QUOTE:END -->
 
 <br/>
