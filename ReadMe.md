@@ -153,9 +153,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> The positive thinker sees the invisible, feels the intangible, and achieves the impossible.
+> The way to get started is to quit talking and begin doing.
 >
-> — Winston Churchill
+> — Walt Disney
 <!-- QUOTE:END -->
 
 <br/>
