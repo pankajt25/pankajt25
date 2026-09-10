@@ -17,6 +17,7 @@ import urllib.error
 
 TOKEN = os.environ["GITHUB_TOKEN"]
 USERNAME = os.environ.get("GITHUB_USERNAME") or os.environ["GITHUB_REPOSITORY"].split("/")[0]
+REPO_FULL = os.environ.get("GITHUB_REPOSITORY", f"{USERNAME}/{USERNAME}")
 UTC_OFFSET_HOURS = float(os.environ.get("UTC_OFFSET_HOURS", "5.5"))  # IST default
 
 API_ROOT = "https://api.github.com"
@@ -348,6 +349,55 @@ def render_contributions_card(weeks):
 
 
 # ---------------------------------------------------------------------------
+# 5. Real profile-views counter — uses GitHub's own Traffic API (official,
+#    first-party data) instead of a third-party counter service. Traffic
+#    API only retains a rolling 14-day window, so we persist a running
+#    total in view-count.json and only add days we haven't counted yet.
+# ---------------------------------------------------------------------------
+VIEW_COUNT_FILE = "view-count.json"
+
+
+def fetch_traffic_views():
+    return rest_get(f"/repos/{REPO_FULL}/traffic/views")
+
+
+def update_view_count(out_dir):
+    path = os.path.join(out_dir, VIEW_COUNT_FILE)
+    try:
+        with open(path, "r") as f:
+            state = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        state = {"total": 0, "counted_dates": []}
+
+    traffic = fetch_traffic_views()
+    if traffic and "views" in traffic:
+        counted = set(state["counted_dates"])
+        for day in traffic["views"]:
+            date_key = day["timestamp"][:10]
+            if date_key not in counted:
+                state["total"] += day["count"]
+                counted.add(date_key)
+        # Keep only the last 60 days of date-keys so this file doesn't grow forever
+        state["counted_dates"] = sorted(counted)[-60:]
+    else:
+        print("WARN: could not fetch traffic views (needs push access to the repo)")
+
+    with open(path, "w") as f:
+        json.dump(state, f)
+
+    return state["total"]
+
+
+def render_views_card(total):
+    return f'''<svg width="200" height="28" viewBox="0 0 200 28" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="200" height="28" rx="6" fill="#0d1117" stroke="#2d3341" stroke-width="1"/>
+  <text x="12" y="19" font-family="Segoe UI, Verdana, sans-serif" font-size="13" fill="#8b949e">Profile Views</text>
+  <text x="188" y="19" font-family="Segoe UI, Verdana, sans-serif" font-size="13" font-weight="700" fill="#8a2be2" text-anchor="end">{total}</text>
+</svg>
+'''
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 def main():
@@ -386,7 +436,11 @@ def main():
     with open(os.path.join(out_dir, "contributions-card.svg"), "w") as f:
         f.write(render_contributions_card(weeks))
 
-    print("Done. Stars:", stars, "Commits:", commits, "PRs:", prs, "Issues:", issues, "Contributed to:", contributed_to)
+    total_views = update_view_count(out_dir)
+    with open(os.path.join(out_dir, "views-card.svg"), "w") as f:
+        f.write(render_views_card(total_views))
+
+    print("Done. Stars:", stars, "Commits:", commits, "PRs:", prs, "Issues:", issues, "Contributed to:", contributed_to, "Views:", total_views)
 
 
 if __name__ == "__main__":
