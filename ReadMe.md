@@ -153,9 +153,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Building things, breaking things, fixing things.
+> Don't be afraid that you do not know something. Be afraid of not learning about it.
 >
-> — Pankaj
+> — Zen Proverb
 <!-- QUOTE:END -->
 
 <br/>
