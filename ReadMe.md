@@ -153,9 +153,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Building things, breaking things, fixing things.
+> The way to get started is to quit talking and begin doing.
 >
-> — Pankaj
+> — Walt Disney
 <!-- QUOTE:END -->
 
 <br/>
