@@ -4,7 +4,7 @@
 
 <img src="https://raw.githubusercontent.com/pankajt25/assets/main/nightlight.gif" width="80%" alt="banner" />
 
-<img src="./views-card.svg" alt="profile views" />
+<img src="https://profile-views.toxicmtest.workers.dev" alt="profile views" />
 
 <p>Third-year B.Tech IT student · Building things, breaking things, fixing things</p>
 
@@ -153,9 +153,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> The way to get started is to quit talking and begin doing.
+> Building things, breaking things, fixing things.
 >
-> — Walt Disney
+> — Pankaj
 <!-- QUOTE:END -->
 
 <br/>
