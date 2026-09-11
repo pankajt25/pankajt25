@@ -153,9 +153,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Don't be afraid that you do not know something. Be afraid of not learning about it.
+> Kindness in words creates confidence. Kindness in thinking creates profoundness. Kindness in giving creates love.
 >
-> — Zen Proverb
+> — Lao Tzu
 <!-- QUOTE:END -->
 
 <br/>
