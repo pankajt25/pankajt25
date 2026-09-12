@@ -153,9 +153,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Kindness in words creates confidence. Kindness in thinking creates profoundness. Kindness in giving creates love.
+> Change yourself - you are in control.
 >
-> — Lao Tzu
+> — Mahatma Gandhi
 <!-- QUOTE:END -->
 
 <br/>
