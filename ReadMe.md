@@ -153,9 +153,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Change yourself - you are in control.
+> Fools talk, cowards are silent, wise men listen.
 >
-> — Mahatma Gandhi
+> — Carlos Ruiz Zafon
 <!-- QUOTE:END -->
 
 <br/>
