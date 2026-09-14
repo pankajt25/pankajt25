@@ -153,9 +153,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Fools talk, cowards are silent, wise men listen.
+> When you're at the end of your rope, tie a knot and hold on.
 >
-> — Carlos Ruiz Zafon
+> — Theodore Roosevelt
 <!-- QUOTE:END -->
 
 <br/>
