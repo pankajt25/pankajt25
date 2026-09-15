@@ -153,9 +153,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> When you're at the end of your rope, tie a knot and hold on.
+> Enjoy every minute of life. Never second-guess life.
 >
-> — Theodore Roosevelt
+> — Michael Jordan
 <!-- QUOTE:END -->
 
 <br/>
