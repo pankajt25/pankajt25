@@ -153,9 +153,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Enjoy every minute of life. Never second-guess life.
+> Before you speak, ask yourself, is it kind, is it necessary, is it true, does it improve the silence?
 >
-> — Michael Jordan
+> — Sathya Sai Baba
 <!-- QUOTE:END -->
 
 <br/>
