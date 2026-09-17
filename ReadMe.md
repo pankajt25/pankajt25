@@ -153,9 +153,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Before you speak, ask yourself, is it kind, is it necessary, is it true, does it improve the silence?
+> Be mindful. Be grateful. Be positive. Be true. Be kind.
 >
-> — Sathya Sai Baba
+> — Roy T. Bennett
 <!-- QUOTE:END -->
 
 <br/>
