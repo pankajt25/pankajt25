@@ -153,9 +153,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Be mindful. Be grateful. Be positive. Be true. Be kind.
+> Happiness is a gift and the trick is not to expect it, but to delight in it when it comes.
 >
-> — Roy T. Bennett
+> — Charles Dickens
 <!-- QUOTE:END -->
 
 <br/>
