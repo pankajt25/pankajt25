@@ -153,9 +153,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Happiness is a gift and the trick is not to expect it, but to delight in it when it comes.
+> Success is getting what you want, happiness is wanting what you get.
 >
-> — Charles Dickens
+> — W.P. Kinsella
 <!-- QUOTE:END -->
 
 <br/>
