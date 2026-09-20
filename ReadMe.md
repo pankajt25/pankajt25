@@ -153,9 +153,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Success is getting what you want, happiness is wanting what you get.
+> As soon as you trust yourself, you will know how to live.
 >
-> — W.P. Kinsella
+> — Johann Wolfgang von Goethe
 <!-- QUOTE:END -->
 
 <br/>
