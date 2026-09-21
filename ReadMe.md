@@ -153,9 +153,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> As soon as you trust yourself, you will know how to live.
+> Strive not to be a success, but rather to be of value.
 >
-> — Johann Wolfgang von Goethe
+> — Colin R. Davis
 <!-- QUOTE:END -->
 
 <br/>
