@@ -153,9 +153,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Strive not to be a success, but rather to be of value.
+> The spirit is beyond destruction. No one can bring an end to spirit which is everlasting.
 >
-> — Colin R. Davis
+> — Bhagavad Gita
 <!-- QUOTE:END -->
 
 <br/>
