@@ -153,9 +153,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> The spirit is beyond destruction. No one can bring an end to spirit which is everlasting.
+> First learn the meaning of what you say, and then speak.
 >
-> — Bhagavad Gita
+> — Epictetus
 <!-- QUOTE:END -->
 
 <br/>
