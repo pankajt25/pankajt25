@@ -153,9 +153,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> First learn the meaning of what you say, and then speak.
+> The busy man is never wise and the wise man is never busy.
 >
-> — Epictetus
+> — Lin Yutang
 <!-- QUOTE:END -->
 
 <br/>
