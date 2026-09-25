@@ -153,9 +153,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> The busy man is never wise and the wise man is never busy.
+> Heaven is right where you are standing.
 >
-> — Lin Yutang
+> — Morihei Ueshiba
 <!-- QUOTE:END -->
 
 <br/>
