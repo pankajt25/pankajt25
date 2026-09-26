@@ -153,9 +153,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Heaven is right where you are standing.
+> Don't be afraid of enemies who attack you. Be afraid of the friends who flatter you.
 >
-> — Morihei Ueshiba
+> — Dale Carnegie
 <!-- QUOTE:END -->
 
 <br/>
