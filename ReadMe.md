@@ -153,9 +153,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Don't be afraid of enemies who attack you. Be afraid of the friends who flatter you.
+> Be a gift to everyone who enters your life, and to everyone whose life you enter.
 >
-> — Dale Carnegie
+> — Neale Donald Walsch
 <!-- QUOTE:END -->
 
 <br/>
