@@ -153,9 +153,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Be a gift to everyone who enters your life, and to everyone whose life you enter.
+> What the eye doesn't see and the mind doesn't know, doesn't exist.
 >
-> — Neale Donald Walsch
+> — D. H. Lawrence
 <!-- QUOTE:END -->
 
 <br/>
