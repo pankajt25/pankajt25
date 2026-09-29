@@ -153,9 +153,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> What the eye doesn't see and the mind doesn't know, doesn't exist.
+> Happiness is not the absence of problems, it's the ability to deal with them.
 >
-> — D. H. Lawrence
+> — Steve Maraboli
 <!-- QUOTE:END -->
 
 <br/>
