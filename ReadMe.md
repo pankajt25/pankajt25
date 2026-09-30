@@ -153,9 +153,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Happiness is not the absence of problems, it's the ability to deal with them.
+> Every time we liberate a woman, we liberate a man.
 >
-> — Steve Maraboli
+> — Margaret Mead
 <!-- QUOTE:END -->
 
 <br/>
