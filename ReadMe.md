@@ -153,9 +153,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Every time we liberate a woman, we liberate a man.
+> To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.
 >
-> — Margaret Mead
+> — Ralph Waldo Emerson
 <!-- QUOTE:END -->
 
 <br/>
