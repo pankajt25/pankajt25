@@ -153,9 +153,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.
+> Attitude drives actions. Actions drive results. Results drive lifestyles.
 >
-> — Ralph Waldo Emerson
+> — Jim Rohn
 <!-- QUOTE:END -->
 
 <br/>
