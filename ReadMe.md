@@ -153,9 +153,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Attitude drives actions. Actions drive results. Results drive lifestyles.
+> Never confuse a single defeat with a final defeat.
 >
-> — Jim Rohn
+> — F. Scott Fitzgerald
 <!-- QUOTE:END -->
 
 <br/>
