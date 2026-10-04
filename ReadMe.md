@@ -153,9 +153,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Never confuse a single defeat with a final defeat.
+> Peace is the result of retraining your mind to process life as it is, rather than as you think it should be.
 >
-> — F. Scott Fitzgerald
+> — Wayne Dyer
 <!-- QUOTE:END -->
 
 <br/>
