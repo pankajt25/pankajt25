@@ -121,6 +121,21 @@
   <img src="./trophies.svg" width="90%" alt="GitHub Trophies" />
 </div>
 
+## ⚙️ How This Repo Works
+
+<!--
+  Self-hosted architecture overview. Detailed breakdown and workflow pipelines
+  are documented in BUILD.md.
+-->
+
+- 🛠️ **First-Party Data Ingestion** — All stats, activity distributions, and trophies are queried directly from official GitHub GraphQL & REST APIs via GitHub Actions, bypassing brittle third-party badge services.
+- 📊 **Static SVG Card Generation** — [`.github/scripts/generate_cards.py`](.github/scripts/generate_cards.py) computes and renders static SVG cards on push and daily schedules, committing them directly to the repository.
+- 🐍 **Automated Snake Animation** — [`.github/workflows/snake.yml`](.github/workflows/snake.yml) uses Platane's action to compile real commit history into an animated contribution grid SVG.
+- 💭 **Self-Updating Daily Quote** — [`.github/workflows/update-quote.yml`](.github/workflows/update-quote.yml) fetches quotes from ZenQuotes (with Quotable fallback) and auto-injects them between README markers.
+- 👁️ **Edge View Counter** — Profile visit counts are recorded in real-time by an independent Cloudflare Worker backed by Workers KV.
+
+*Want to dive deeper into the architecture, workflow pipelines, and design decisions? Check out [BUILD.md](BUILD.md).*
+
 ## 🔗 Connect with Me
 
 <p align="left">
