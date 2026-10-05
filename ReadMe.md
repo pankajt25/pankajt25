@@ -5,7 +5,7 @@
 
 <img src="https://raw.githubusercontent.com/pankajt25/assets/main/nightlight.gif" width="80%" alt="banner" />
 
-<img src="https://profile-views.toxicmtest.workers.dev" alt="profile views" />
+<br><img src="https://profile-views.toxicmtest.workers.dev" alt="profile views" /><br>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=4A90E2&center=true&vCenter=true&width=600&lines=Preparing+for+placements+%F0%9F%8E%AF;Exploring+new+technologies+%F0%9F%94%AC;Always+building+something+new+%F0%9F%9A%80" alt="Typing SVG" />
 
