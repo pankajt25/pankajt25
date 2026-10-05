@@ -153,9 +153,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Peace is the result of retraining your mind to process life as it is, rather than as you think it should be.
+> Be not afraid of growing slowly, be afraid only of standing still.
 >
-> — Wayne Dyer
+> — Chinese Proverb
 <!-- QUOTE:END -->
 
 <br/>
