@@ -131,9 +131,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Be not afraid of growing slowly, be afraid only of standing still.
+> I do not exist to impress the world. I exist to live my life in a way that will make me happy.
 >
-> — Chinese Proverb
+> — Richard Bach
 <!-- QUOTE:END -->
 
 <div align="center">
