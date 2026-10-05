@@ -132,9 +132,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Building things, breaking things, fixing things.
+> Be not afraid of growing slowly, be afraid only of standing still.
 >
-> — Pankaj
+> — Chinese Proverb
 <!-- QUOTE:END -->
 
 <div align="center">
