@@ -131,9 +131,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> I do not exist to impress the world. I exist to live my life in a way that will make me happy.
+> Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.
 >
-> — Richard Bach
+> — Ayn Rand
 <!-- QUOTE:END -->
 
 <div align="center">
