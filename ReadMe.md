@@ -131,9 +131,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.
+> It still holds true that man is most uniquely human when he turns obstacles into opportunities.
 >
-> — Ayn Rand
+> — Eric Hoffer
 <!-- QUOTE:END -->
 
 <div align="center">
