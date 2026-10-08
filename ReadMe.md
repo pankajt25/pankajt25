@@ -131,9 +131,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> It still holds true that man is most uniquely human when he turns obstacles into opportunities.
+> It takes real work to grasp what is invisible to just about everyone else.
 >
-> — Eric Hoffer
+> — Ryan Holiday
 <!-- QUOTE:END -->
 
 <div align="center">
