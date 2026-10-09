@@ -131,9 +131,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> It takes real work to grasp what is invisible to just about everyone else.
+> You are never too old to set another goal or to dream a new dream.
 >
-> — Ryan Holiday
+> — Les Brown
 <!-- QUOTE:END -->
 
 <div align="center">
