@@ -131,9 +131,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> An inventor is a man who asks Why? of the universe and lets nothing stand between the answer and his mind.
+> Yesterday is history, tomorrow is a mystery, today is God's gift, that's why we call it the present.
 >
-> — Ayn Rand
+> — Joan Rivers
 <!-- QUOTE:END -->
 
 <div align="center">
