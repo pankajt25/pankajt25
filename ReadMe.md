@@ -131,9 +131,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> You are never too old to set another goal or to dream a new dream.
+> An inventor is a man who asks Why? of the universe and lets nothing stand between the answer and his mind.
 >
-> — Les Brown
+> — Ayn Rand
 <!-- QUOTE:END -->
 
 <div align="center">
