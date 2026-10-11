@@ -131,9 +131,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Yesterday is history, tomorrow is a mystery, today is God's gift, that's why we call it the present.
+> Dreams are for dreamers. Goals are for achievers.
 >
-> — Joan Rivers
+> — Arnold Schwarzenegger
 <!-- QUOTE:END -->
 
 <div align="center">
