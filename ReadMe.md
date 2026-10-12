@@ -131,9 +131,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Dreams are for dreamers. Goals are for achievers.
+> Hope is important because it can make the present moment less difficult to bear. If we believe that tomorrow will be better, we can bear a hardship today.
 >
-> — Arnold Schwarzenegger
+> — Thich Nhat Hanh
 <!-- QUOTE:END -->
 
 <div align="center">
