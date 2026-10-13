@@ -131,9 +131,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Hope is important because it can make the present moment less difficult to bear. If we believe that tomorrow will be better, we can bear a hardship today.
+> It is during our darkest moments that we must focus to see the light.
 >
-> — Thich Nhat Hanh
+> — Aristotle
 <!-- QUOTE:END -->
 
 <div align="center">
