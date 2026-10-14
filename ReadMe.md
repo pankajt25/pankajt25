@@ -130,9 +130,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> It is during our darkest moments that we must focus to see the light.
+> Failure is the highway to success.
 >
-> — Aristotle
+> — Og Mandino
 <!-- QUOTE:END -->
 
 <div align="center">
