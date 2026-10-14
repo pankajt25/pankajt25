@@ -1,9 +1,8 @@
 <div align="center">
-
 <h1>Hi there, I'm Pankaj 👋</h1>
 <br><p>Third-year B.Tech IT student · Building things, breaking things, fixing things</p><br>
 
-<img src="https://raw.githubusercontent.com/pankajt25/assets/main/or.gif" width="100%" height="250%" alt="banner" />
+<img src="https://raw.githubusercontent.com/pankajt25/assets/main/or.gif" width="100%" height="50%" alt="banner" />
 
 <br><img src="https://profile-views.toxicmtest.workers.dev" alt="profile views" /><br>
 
