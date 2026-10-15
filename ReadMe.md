@@ -130,9 +130,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Failure is the highway to success.
+> Your only obligation in any lifetime is to be true to yourself.
 >
-> — Og Mandino
+> — Richard Bach
 <!-- QUOTE:END -->
 
 <div align="center">
