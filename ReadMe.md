@@ -130,9 +130,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Your only obligation in any lifetime is to be true to yourself.
+> The most difficult times for many of us are the ones we give ourselves.
 >
-> — Richard Bach
+> — Pema Chodron
 <!-- QUOTE:END -->
 
 <div align="center">
