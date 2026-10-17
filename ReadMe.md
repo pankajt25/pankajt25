@@ -130,9 +130,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> The most difficult times for many of us are the ones we give ourselves.
+> Hardly anybody recognizes the most significant moments of their life at the time they happen.
 >
-> — Pema Chodron
+> — W.P. Kinsella
 <!-- QUOTE:END -->
 
 <div align="center">
