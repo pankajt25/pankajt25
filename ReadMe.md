@@ -130,9 +130,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Hardly anybody recognizes the most significant moments of their life at the time they happen.
+> No great discovery was ever made without a bold guess.
 >
-> — W.P. Kinsella
+> — Isaac Newton
 <!-- QUOTE:END -->
 
 <div align="center">
