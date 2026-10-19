@@ -130,9 +130,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> No great discovery was ever made without a bold guess.
+> Life is a traveling to the edge of knowledge, then a leap taken.
 >
-> — Isaac Newton
+> — D. H. Lawrence
 <!-- QUOTE:END -->
 
 <div align="center">
