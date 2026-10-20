@@ -130,9 +130,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Life is a traveling to the edge of knowledge, then a leap taken.
+> Your mind will make you rich or poor, depending on the use you put to it.
 >
-> — D. H. Lawrence
+> — Brian Tracy
 <!-- QUOTE:END -->
 
 <div align="center">
