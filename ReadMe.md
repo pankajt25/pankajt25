@@ -130,9 +130,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Your mind will make you rich or poor, depending on the use you put to it.
+> The way to get started is to quit talking and begin doing.
 >
-> — Brian Tracy
+> — Walt Disney
 <!-- QUOTE:END -->
 
 <div align="center">
