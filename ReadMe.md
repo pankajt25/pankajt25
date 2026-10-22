@@ -130,9 +130,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Money poisons you when you've got it, and starves you when you haven't.
+> What's happening is merely what's happening. How you feel about it is another matter.
 >
-> — D. H. Lawrence
+> — Neale Donald Walsch
 <!-- QUOTE:END -->
 
 <div align="center">
