@@ -130,9 +130,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> The way to get started is to quit talking and begin doing.
+> Money poisons you when you've got it, and starves you when you haven't.
 >
-> — Walt Disney
+> — D. H. Lawrence
 <!-- QUOTE:END -->
 
 <div align="center">
