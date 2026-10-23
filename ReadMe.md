@@ -130,9 +130,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> What's happening is merely what's happening. How you feel about it is another matter.
+> Be a good animal, true to your instincts.
 >
-> — Neale Donald Walsch
+> — D. H. Lawrence
 <!-- QUOTE:END -->
 
 <div align="center">
