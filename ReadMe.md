@@ -130,9 +130,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Be a good animal, true to your instincts.
+> If you do not get the chills when you set your goal you're not setting big enough goals.
 >
-> — D. H. Lawrence
+> — Bob Proctor
 <!-- QUOTE:END -->
 
 <div align="center">
