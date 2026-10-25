@@ -130,9 +130,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> If you do not get the chills when you set your goal you're not setting big enough goals.
+> Be grateful for what you have now, and nothing should be taken for granted.
 >
-> — Bob Proctor
+> — Roy T. Bennett
 <!-- QUOTE:END -->
 
 <div align="center">
