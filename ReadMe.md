@@ -130,9 +130,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Be grateful for what you have now, and nothing should be taken for granted.
+> Life does not get better by chance, it gets better by change.
 >
-> — Roy T. Bennett
+> — Jim Rohn
 <!-- QUOTE:END -->
 
 <div align="center">
