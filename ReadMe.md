@@ -1,142 +1,78 @@
-<div align="center">
-<h1>Hi there, I'm Pankaj 👋</h1>
-<br><p>Third-year B.Tech IT student · Building things, breaking things, fixing things</p><br>
-
-<img src="https://raw.githubusercontent.com/pankajt25/assets/main/or.gif" width="100%" height="50%" alt="banner" />
-
-<br><img src="https://profile-views.toxicmtest.workers.dev" alt="profile views" /><br>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=4A90E2&center=true&vCenter=true&width=600&lines=Preparing+for+placements+%F0%9F%8E%AF;Exploring+new+technologies+%F0%9F%94%AC;Always+building+something+new+%F0%9F%9A%80" alt="Typing SVG" />
-
-<a href="https://www.linkedin.com/in/pankaj-tike-48ab02324" target="_blank"><img src="https://img.shields.io/badge/Open%20to-Opportunities-brightgreen?style=for-the-badge" alt="Open to opportunities" /></a>
-<img src="https://img.shields.io/badge/Exploring-New%20Technologies-orange?style=for-the-badge" alt="Exploring new technologies" />
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=header" width="100%" alt="wave divider" />
-
-## 🚀 About Me
-
-- 🎓 Currently pursuing B.Tech in Information Technology
-- 💻 Working on projects across software design, theory of computation, and physics
-- 🎯 Preparing for placements (product & service-based companies)
-- 🌐 Exploring new technologies and tools
-- ⚡ Fun fact: this README keeps working even when the GitHub stats API doesn't 😄
-
-## 🛠️ Tech Stack
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=js,ts,react,nodejs,python,java,html,css,git,github,vscode,figma" alt="tech stack icons" />
+<p align="center">
+  <img src="https://raw.githubusercontent.com/pankajt25/assets/main/or.gif" width="100%" height="250" alt="Banner">
 </p>
 
-## 📚 Currently Learning
 
-<!--
-  Update this list as your focus shifts — it's plain markdown, no
-  workflow needed. Keep 3-5 items so it stays a quick scan, not a resume.
--->
 
-- 🧠 Data Structures & Algorithms — sharpening for placement rounds
-- 🏗️ System Design fundamentals
-- ⚛️ Advanced React patterns (state management, performance)
-- 🔐 Web security basics
 
-## 💼 Featured Projects
+# About Me:
+<img align="right" src="https://raw.githubusercontent.com/pankajt25/assets/main/gifs/about.gif" width="300" alt="Gif">
 
-<!--
-  Curated picks — unlike GitHub's auto "Pinned" section below, this one
-  you control: pick your 2-3 strongest projects and a one-line pitch
-  instead of just a repo name. Add a Live Demo badge back in once a
-  project is actually deployed.
--->
+I'm Pankaj, a third-year B.Tech IT student who loves building things, breaking things and fixing things.<br><br> I'm currently working on projects across software design, theory of computation and physics <br> UPDATE: I'm also building a self-healing web scraper (WebGuard-scrapeverse) 🛡️ <br>
+I'm preparing for placements (product & service-based companies) <br> I'm looking to collaborate on open-source and web projects <br> I'm currently learning DSA, System Design, advanced React and web security <br> Ask me about React, Node.js, Python and web scraping <br>⚡ Fun fact: this README keeps working even when the GitHub stats API doesn't 😄
+<br clear="right">
 
-<table>
+[![linkedin](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pankaj-tike-48ab02324)
+[![instagram](https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/pankajt_25/)
+![Open to opportunities](https://img.shields.io/badge/Open%20to-Opportunities-brightgreen)
+
+# 💻 Tech Stack:
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![VS Code](https://img.shields.io/badge/VS%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+
+# 💼 Featured Projects
+<table width="100%">
   <tr>
-    <td width="50%">
-      <h3 align="center">🛡️ WebGuard-scrapeverse</h3>
-      <p align="center">Self-healing web scraper — detects site changes and auto-repairs itself via GitHub Actions.</p>
-      <p align="center">
-        <a href="https://github.com/pankajt25/WebGuard-scrapeverse" target="_blank"><img src="https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white" /></a>
-      </p>
+    <td width="50%" align="center">
+      <h3>🛡️ WebGuard-scrapeverse</h3>
+      <p>Self-healing web scraper that detects site changes and auto-repairs itself via GitHub Actions.</p>
+      <a href="https://github.com/pankajt25/WebGuard-scrapeverse" target="_blank"><img src="https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white" alt="Code" /></a>
     </td>
-    <td width="50%">
-      <h3 align="center">🧠 Cerebro</h3>
-      <p align="center">Automation and agent-based tooling project.</p>
-      <p align="center">
-        <a href="https://github.com/pankajt25/Cerebro" target="_blank"><img src="https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white" /></a>
-      </p>
-    </td>
-
-  </tr>
-</table>
-
-## 📊 Profile Summary
-
-<!--
-  Cards below are static SVGs generated by .github/scripts/generate_cards.py
-  and regenerated automatically by .github/workflows/update-cards.yml on
-  every push, daily on schedule, and on manual trigger — pulling real data
-  from the GitHub API each time. No live API calls happen when this README
-  itself is viewed, so it never shows broken images.
--->
-
-<table align="center">
-  <tr>
-    <td colspan="2" align="center">
-      <img src="./contributions-card.svg" width="100%" alt="Contribution Graph" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <img src="./stats-card.svg" width="100%" alt="Stats" />
-    </td>
-    <td align="center" width="50%">
-      <img src="./languages-card.svg" width="100%" alt="Top Languages" />
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <img src="./commits-by-hour-card.svg" width="100%" alt="Commits by Hour" />
+    <td width="50%" align="center">
+      <h3>🧠 Cerebro</h3>
+      <p>Automation and agent-based tooling project.</p>
+      <a href="https://github.com/pankajt25/Cerebro" target="_blank"><img src="https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white" alt="Code" /></a>
     </td>
   </tr>
 </table>
 
-## 🐍 Contribution Snake
+# GitHub Stats
+<br>
 
-<!--
-  Generated automatically by .github/workflows/snake.yml (uses the
-  popular platane/snk action) — animates your real contribution graph
-  eating itself, regenerated on the same daily schedule.
--->
+<img alt="Contribution graph" src="./contributions-card.svg" width="100%">
 
-<div align="center">
-  <img src="./dist/github-contribution-grid-snake.svg" width="100%" alt="Contribution Snake animation" />
-</div>
+<br>
+<table width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <img alt="GitHub stats" src="./stats-card.svg" width="100%">
+    </td>
+    <td width="50%" align="center">
+      <img alt="Top languages" src="./languages-card.svg" width="100%">
+    </td>
+  </tr>
+</table>
 
-## 🏆 GitHub Trophies
+<br>
+<table width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://raw.githubusercontent.com/pankajt25/assets/main/gifs/gif1.gif" width="100%" alt="Gif 1">
+    </td>
+    <td width="50%" align="center">
+      <img src="https://raw.githubusercontent.com/pankajt25/assets/main/gifs/gif2.gif" width="100%" alt="Gif 2">
+    </td>
+  </tr>
+</table>
 
-<div align="center">
-  <img src="./trophies.svg" width="90%" alt="GitHub Trophies" />
-</div>
-
-## 🔗 Connect with Me
-
-<p align="left">
-  <a href="https://github.com/pankajt25" target="_blank"><img src="https://skillicons.dev/icons?i=github" alt="GitHub" /></a>
-  <a href="https://www.linkedin.com/in/pankaj-tike-48ab02324" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" /></a>
-  <a href="https://www.instagram.com/pankajt_25/" target="_blank"><img src="https://skillicons.dev/icons?i=instagram" alt="Instagram" /></a>
+<p align="center">
+  <img src="./dist/github-contribution-grid-snake.svg" width="100%" alt="Contribution Snake animation">
 </p>
 
-## 💭 Thought of the Day
+### Random Dev Quote
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" width="100%" alt="Random dev quote">
+</p>
 
-<!-- QUOTE:START -->
-> Life is all about mistakes. It is constant change and growth.
->
-> — Neale Donald Walsch
-<!-- QUOTE:END -->
-
-<div align="center">
-  <sub>Thanks for stopping by — feel free to explore my pinned repos below ⬇️</sub>
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%" alt="wave footer" />
+<p align="center">
+  <img src="https://raw.githubusercontent.com/pankajt25/assets/main/gifs/footer.gif" width="100%" height="250" alt="Banner">
+</p>
