@@ -130,9 +130,9 @@
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Life does not get better by chance, it gets better by change.
+> Life is all about mistakes. It is constant change and growth.
 >
-> — Jim Rohn
+> — Neale Donald Walsch
 <!-- QUOTE:END -->
 
 <div align="center">
