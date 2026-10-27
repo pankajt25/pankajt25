@@ -56,10 +56,10 @@ I'm preparing for placements (product & service-based companies) <br> I'm lookin
 <table width="100%">
   <tr>
     <td width="50%" align="center">
-      <img src="https://raw.githubusercontent.com/pankajt25/assets/main/gifs/nightlight.gif" width="100%" alt="Gif 1">
+      <img src="https://raw.githubusercontent.com/pankajt25/assets/main/or.gif" width="100%" alt="Gif 1">
     </td>
     <td width="50%" align="center">
-      <img src="https://raw.githubusercontent.com/pankajt25/assets/main/gifs/starynight.gif" width="100%" alt="Gif 2">
+      <img src="https://raw.githubusercontent.com/pankajt25/assets/main/or.gif" width="100%" alt="Gif 2">
     </td>
   </tr>
 </table>
