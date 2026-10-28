@@ -76,3 +76,11 @@ I'm preparing for placements (product & service-based companies) <br> I'm lookin
 <p align="center">
   <img src="https://raw.githubusercontent.com/pankajt25/assets/main/or.gif" width="100%" height="250" alt="Banner">
 </p>
+
+## 💭 Thought of the Day
+
+<!-- QUOTE:START -->
+> Walk towards the sunshine, and the shadows will fall behind you.
+>
+> — Mary Engelbreit
+<!-- QUOTE:END -->
