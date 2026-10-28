@@ -80,7 +80,7 @@ I'm preparing for placements (product & service-based companies) <br> I'm lookin
 ## 💭 Thought of the Day
 
 <!-- QUOTE:START -->
-> Walk towards the sunshine, and the shadows will fall behind you.
+> Nothing has any power over me other than that which I give it through my conscious thoughts.
 >
-> — Mary Engelbreit
+> — Tony Robbins
 <!-- QUOTE:END -->
