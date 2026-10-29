@@ -1,19 +1,21 @@
 import os, json, urllib.request, datetime
 
+NOW = datetime.datetime.now(datetime.timezone.utc)
 USER = os.environ.get("GH_USER", "pankajt25")
 TOKEN = os.environ.get("STATS_TOKEN") or os.environ["GITHUB_TOKEN"]
 NUM, TITLE, LABEL = "#58A6FF", "#E6EDF3", "#8B949E"   # NUM = number colour, e.g. "#48BB78" for green
 
 QUERY = """
-query($login:String!){user(login:$login){
+query($login:String!,$from:DateTime!,$to:DateTime!){user(login:$login){
   repos: repositories(ownerAffiliations:OWNER,privacy:PUBLIC,first:100){totalCount nodes{stargazerCount}}
   pullRequests{totalCount}
-  contributionsCollection{contributionCalendar{totalContributions weeks{contributionDays{contributionCount}}}}
+  contributionsCollection{contributionCalendar{weeks{contributionDays{contributionCount}}}}
+  year: contributionsCollection(from:$from,to:$to){contributionCalendar{totalContributions}}
 }}"""
 
 req = urllib.request.Request(
     "https://api.github.com/graphql",
-    data=json.dumps({"query": QUERY, "variables": {"login": USER}}).encode(),
+    data=json.dumps({"query": QUERY, "variables": {"login": USER, "from": f"{NOW.year}-01-01T00:00:00Z", "to": NOW.strftime("%Y-%m-%dT%H:%M:%SZ")}}).encode(),
     headers={"Authorization": f"bearer {TOKEN}"},
 )
 u = json.load(urllib.request.urlopen(req))["data"]["user"]
@@ -36,7 +38,7 @@ while i >= 0 and counts[i] > 0:
 
 stars = sum(r["stargazerCount"] for r in u["repos"]["nodes"])
 items = [
-    (str(cal["totalContributions"]), "Contributions (1y)"),
+    (str(u["year"]["contributionCalendar"]["totalContributions"]), f"Contributions ({NOW.year})"),
     (f"{current}d", "Current streak"),
     (f"{longest}d", "Longest streak"),
     (str(stars), "Stars earned"),
