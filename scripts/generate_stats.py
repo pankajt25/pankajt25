@@ -1,7 +1,7 @@
-import os, json, urllib.request
+import os, json, urllib.request, datetime
 
 USER = os.environ.get("GH_USER", "pankajt25")
-TOKEN = os.environ["GITHUB_TOKEN"]
+TOKEN = os.environ.get("STATS_TOKEN") or os.environ["GITHUB_TOKEN"]
 NUM, TITLE, LABEL = "#58A6FF", "#E6EDF3", "#8B949E"   # NUM = number colour, e.g. "#48BB78" for green
 
 QUERY = """
@@ -44,6 +44,7 @@ items = [
     (str(u["pullRequests"]["totalCount"]), "Pull requests"),
 ]
 
+stamp = datetime.datetime.now(datetime.timezone.utc).strftime('%d %b %Y')
 W, H = 1000, 190
 cols = ""
 for n, (v, l) in enumerate(items):
@@ -55,6 +56,7 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewB
 <rect x="0.75" y="0.75" width="{W-1.5}" height="{H-1.5}" rx="10" fill="#0D1117" stroke="#30363D" stroke-width="1.5"/>
 <text x="30" y="46" fill="{TITLE}" font-size="20" font-weight="600">{USER}'s GitHub Stats</text>
 {cols}
+<text x="{W-24}" y="{H-14}" fill="{LABEL}" font-size="11" text-anchor="end">Updated {stamp} UTC</text>
 </svg>'''
 
 os.makedirs("assets", exist_ok=True)
