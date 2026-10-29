@@ -37,6 +37,9 @@ jobs:
             [ -n "$RM" ] && sed -i -E "s#(assets/stats\.svg)(\?v=[0-9]+)?#\1?v=$(date +%s)#" "$RM"
             git add assets "$RM"
             git commit -m "chore: update profile stats"
-            git pull --rebase -X theirs origin main
-            git push
+            for i in 1 2 3 4; do
+              git pull --rebase -X theirs origin main && git push && exit 0
+              sleep $((i*5))
+            done
+            exit 1
           fi
