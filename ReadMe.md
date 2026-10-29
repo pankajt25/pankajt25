@@ -1,11 +1,12 @@
-<img src="https://raw.githubusercontent.com/pankajt25/assets/main/gifs/banner-top.gif" width="100%" alt="Banner">
+<img src="https://raw.githubusercontent.com/pankajt25/assets/main/gifs/banner-top.gif?v=2" width="100%" alt="Banner">
 
 # About Me:
 
 <img align="right" width="190" src="https://raw.githubusercontent.com/pankajt25/assets/main/gifs/about.gif" alt="gif">
 
-I'm Pankaj, a B.Tech IT student from Bengaluru. I build full-stack web apps and take on freelance web work.  
-I'm currently building MERN projects, including a real-time ASCII art converter  
+I'm Pankaj. I design, build and debug software, from APIs and databases to the interfaces people actually use.  
+I built [WebGuard](https://github.com/pankajt25/WebGuard-scrapeverse), a price and stock tracker whose scraper repairs itself when a site changes its layout  
+I built [Cerebro](https://github.com/pankajt25/Cerebro), a research agent that remembers what it learned across sessions using a knowledge graph  
 I'm also working on a resume analyser that scores resumes against job descriptions  
 I'm learning Linux administration and automation  
 I'm looking for SDE internships and freelance web development work  
@@ -48,14 +49,4 @@ Ask me about React, Node.js, MongoDB and web dev
 
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&amp;theme=radical" width="100%" alt="Random dev quote">
 
-# 🚀 Projects:
-
-<img align="right" width="180" src="https://raw.githubusercontent.com/pankajt25/assets/main/gifs/banner-bottom.gif" alt="gif">
-
-**[WebGuard](https://github.com/pankajt25/WebGuard-scrapeverse)** · Node.js, Express, React, GitHub Actions  
-A price and stock tracker whose scraper fixes itself. When a store redesigns its page and the data comes back empty, WebGuard catches it and triggers Bright Data's AI self-heal on its own. GitHub Actions runs the whole loop every 6 hours. Built for the Into the Scrape-Verse hackathon.
-
-**[Cerebro](https://github.com/pankajt25/Cerebro)** · Python, Streamlit, FalkorDB, Groq, Tavily  
-A research agent that remembers. It searches the web, pulls out entities and facts with an LLM, and stores them as a knowledge graph in FalkorDB. Ask something related later and it recalls what it learned in earlier sessions. Built for the FalkorDB Graph Hacks.
-
-<br clear="right"/>
+<img src="https://raw.githubusercontent.com/pankajt25/assets/main/gifs/banner-bottom.gif?v=2" width="100%" alt="Banner">
