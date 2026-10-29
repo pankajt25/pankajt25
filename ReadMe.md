@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/pankajt25/assets/main/gifs/banner-top.gif?v=1793256057" width="100%" alt="Banner">
+<img src="https://raw.githubusercontent.com/pankajt25/assets/main/gifs/banner-top.gif?v=1793256057" width="100%" height="70%" alt="Banner">
 
 # About Me:
 
