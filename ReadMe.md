@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/pankajt25/assets/main/gifs/banner-top.gif?v=1793256762" width="100%" alt="Banner">
+<img src="https://raw.githubusercontent.com/pankajt25/assets/main/gifs/banner-top.gif?v=1793257009" width="100%" alt="Banner">
 
 # About Me:
 
@@ -49,4 +49,4 @@ Ask me about React, Node.js, MongoDB and web dev
 
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&amp;theme=radical" width="100%" alt="Random dev quote">
 
-<img src="https://raw.githubusercontent.com/pankajt25/assets/main/gifs/banner-bottom.gif?v=1793256762" width="100%" alt="Banner">
+<img src="https://raw.githubusercontent.com/pankajt25/assets/main/gifs/banner-bottom.gif?v=1793257009" width="100%" alt="Banner">
