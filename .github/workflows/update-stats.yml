@@ -11,6 +11,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: update-stats
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-24.04
@@ -33,5 +37,6 @@ jobs:
             [ -n "$RM" ] && sed -i -E "s#(assets/stats\.svg)(\?v=[0-9]+)?#\1?v=$(date +%s)#" "$RM"
             git add assets "$RM"
             git commit -m "chore: update profile stats"
+            git pull --rebase -X theirs origin main
             git push
           fi
