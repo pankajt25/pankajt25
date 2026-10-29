@@ -1,8 +1,8 @@
-[![Banner](https://raw.githubusercontent.com/pankajt25/assets/main/gifs/banner-top.gif)](https://raw.githubusercontent.com/pankajt25/assets/main/gifs/banner-top.gif)
+<img src="https://raw.githubusercontent.com/pankajt25/assets/main/gifs/banner-top.gif" width="100%" alt="Banner">
 
 # About Me:
 
-[![Gif](https://raw.githubusercontent.com/pankajt25/assets/main/gifs/about.gif)](https://raw.githubusercontent.com/pankajt25/assets/main/gifs/about.gif)
+<img align="right" width="220" src="https://raw.githubusercontent.com/pankajt25/assets/main/gifs/about.gif" alt="gif">
 
 I'm Pankaj, a B.Tech IT student at Alliance University, Bengaluru. I build full-stack web apps and take on freelance web work.  
 I'm currently building MERN projects, including a real-time ASCII art converter  
@@ -11,9 +11,11 @@ I'm learning Linux administration and automation
 I'm looking for SDE internships and freelance web development work  
 Ask me about React, Node.js, MongoDB and web dev
 
+<br clear="right"/>
+
 [![GitHub](https://img.shields.io/badge/GitHub-090909?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pankajt25)
-[![Email](https://img.shields.io/badge/Email-E53E3E?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_HANDLE)
+[![Email](https://img.shields.io/badge/Email-E53E3E?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pankajtike2005@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pankaj-tike-48ab02324)
 
 # 💻 Tech Stack:
 
@@ -33,13 +35,17 @@ Ask me about React, Node.js, MongoDB and web dev
 
 # GitHub Stats
 
-![GitHub stats](https://github.com/pankajt25/pankajt25/raw/main/assets/stats.svg)
+<img src="https://github.com/pankajt25/pankajt25/raw/main/assets/stats.svg" width="100%" alt="GitHub stats">
 
-| [![Left gif](https://raw.githubusercontent.com/pankajt25/assets/main/gifs/left.gif)](https://raw.githubusercontent.com/pankajt25/assets/main/gifs/left.gif) | [![Right gif](https://raw.githubusercontent.com/pankajt25/assets/main/gifs/right.gif)](https://raw.githubusercontent.com/pankajt25/assets/main/gifs/right.gif) |
-|:---:|:---:|
+<table>
+<tr>
+<td width="50%" align="center"><img src="https://raw.githubusercontent.com/pankajt25/assets/main/gifs/left.gif" width="100%" alt="left gif"></td>
+<td width="50%" align="center"><img src="https://raw.githubusercontent.com/pankajt25/assets/main/gifs/right.gif" width="100%" alt="right gif"></td>
+</tr>
+</table>
 
 ### Random Dev Quote
 
-[![Random dev quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)](https://github.com/pankajt25)
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&amp;theme=radical" width="100%" alt="Random dev quote">
 
-[![Banner](https://raw.githubusercontent.com/pankajt25/assets/main/gifs/banner-bottom.gif)](https://raw.githubusercontent.com/pankajt25/assets/main/gifs/banner-bottom.gif)
+<img src="https://raw.githubusercontent.com/pankajt25/assets/main/gifs/banner-bottom.gif" width="100%" alt="Banner">

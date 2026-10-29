@@ -1,17 +1,14 @@
 import os, json, urllib.request
-from collections import Counter
 
 USER = os.environ.get("GH_USER", "pankajt25")
 TOKEN = os.environ["GITHUB_TOKEN"]
+NUM, TITLE, LABEL = "#58A6FF", "#E6EDF3", "#8B949E"   # NUM = number colour, e.g. "#48BB78" for green
 
 QUERY = """
 query($login:String!){user(login:$login){
-  followers{totalCount}
-  repositories(ownerAffiliations:OWNER,isFork:false,first:100,privacy:PUBLIC){
-    totalCount
-    nodes{stargazerCount languages(first:5,orderBy:{field:SIZE,direction:DESC}){edges{size node{name}}}}
-  }
-  contributionsCollection{totalCommitContributions totalPullRequestContributions totalIssueContributions restrictedContributionsCount}
+  repos: repositories(ownerAffiliations:OWNER,privacy:PUBLIC,first:100){totalCount nodes{stargazerCount}}
+  pullRequests{totalCount}
+  contributionsCollection{contributionCalendar{totalContributions weeks{contributionDays{contributionCount}}}}
 }}"""
 
 req = urllib.request.Request(
@@ -21,42 +18,44 @@ req = urllib.request.Request(
 )
 u = json.load(urllib.request.urlopen(req))["data"]["user"]
 
-repos = u["repositories"]["nodes"]
-stars = sum(r["stargazerCount"] for r in repos)
-c = u["contributionsCollection"]
-commits = c["totalCommitContributions"] + c["restrictedContributionsCount"]
-langs = Counter()
-for r in repos:
-    for e in r["languages"]["edges"]:
-        langs[e["node"]["name"]] += e["size"]
-top = langs.most_common(5)
-total = sum(v for _, v in top) or 1
+cal = u["contributionsCollection"]["contributionCalendar"]
+counts = [d["contributionCount"] for w in cal["weeks"] for d in w["contributionDays"]]
 
-rows = [("Public repos", u["repositories"]["totalCount"]), ("Stars earned", stars),
-        ("Commits (last year)", commits), ("Pull requests", c["totalPullRequestContributions"]),
-        ("Issues", c["totalIssueContributions"]), ("Followers", u["followers"]["totalCount"])]
+longest = run = 0
+for c in counts:
+    run = run + 1 if c > 0 else 0
+    longest = max(longest, run)
 
-palette = ["#E53E3E", "#48BB78", "#ED8936", "#4299E1", "#9F7AEA"]
-stats_svg = "".join(
-    f'<text x="25" y="{72 + i*24}" fill="#A0AEC0" font-size="13">{k}</text>'
-    f'<text x="215" y="{72 + i*24}" fill="#48BB78" font-size="13" font-weight="700" text-anchor="end">{v}</text>'
-    for i, (k, v) in enumerate(rows))
+i = len(counts) - 1
+if i >= 0 and counts[i] == 0:      # today may not have contributions yet
+    i -= 1
+current = 0
+while i >= 0 and counts[i] > 0:
+    current += 1
+    i -= 1
 
-bar, x, legend = "", 260, ""
-for i, (name, size) in enumerate(top):
-    w = 210 * size / total
-    bar += f'<rect x="{x:.1f}" y="72" width="{w:.1f}" height="10" fill="{palette[i]}"/>'
-    x += w
-    legend += (f'<circle cx="266" cy="{104 + i*20}" r="5" fill="{palette[i]}"/>'
-               f'<text x="278" y="{108 + i*20}" fill="#A0AEC0" font-size="12">{name} {100*size/total:.1f}%</text>')
+stars = sum(r["stargazerCount"] for r in u["repos"]["nodes"])
+items = [
+    (str(cal["totalContributions"]), "Contributions (1y)"),
+    (f"{current}d", "Current streak"),
+    (f"{longest}d", "Longest streak"),
+    (str(stars), "Stars earned"),
+    (str(u["repos"]["totalCount"]), "Repositories"),
+    (str(u["pullRequests"]["totalCount"]), "Pull requests"),
+]
 
-svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="495" height="235" viewBox="0 0 495 235" font-family="Segoe UI, Ubuntu, sans-serif">
-<rect width="495" height="235" rx="8" fill="#090909" stroke="#E53E3E" stroke-width="1.5"/>
-<text x="25" y="36" fill="#E53E3E" font-size="18" font-weight="700">{USER}'s GitHub Stats</text>
-{stats_svg}
-<text x="260" y="58" fill="#E53E3E" font-size="13" font-weight="700">Top Languages</text>
-{bar}{legend}
-</svg>"""
+W, H = 1000, 190
+cols = ""
+for n, (v, l) in enumerate(items):
+    x = W / len(items) * (n + 0.5)
+    cols += (f'<text x="{x:.0f}" y="112" fill="{NUM}" font-size="40" font-weight="700" text-anchor="middle">{v}</text>'
+             f'<text x="{x:.0f}" y="142" fill="{LABEL}" font-size="15" text-anchor="middle">{l}</text>')
+
+svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif">
+<rect x="0.75" y="0.75" width="{W-1.5}" height="{H-1.5}" rx="10" fill="#0D1117" stroke="#30363D" stroke-width="1.5"/>
+<text x="30" y="46" fill="{TITLE}" font-size="20" font-weight="600">{USER}'s GitHub Stats</text>
+{cols}
+</svg>'''
 
 os.makedirs("assets", exist_ok=True)
 open("assets/stats.svg", "w").write(svg)
