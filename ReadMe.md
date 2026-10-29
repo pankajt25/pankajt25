@@ -2,16 +2,14 @@
 
 # About Me:
 
-<img align="right" width="220" src="https://raw.githubusercontent.com/pankajt25/assets/main/gifs/about.gif" alt="gif">
+<img align="right" width="190" src="https://raw.githubusercontent.com/pankajt25/assets/main/gifs/about.gif" alt="gif">
 
-I'm Pankaj, a B.Tech IT student at Alliance University, Bengaluru. I build full-stack web apps and take on freelance web work.  
+I'm Pankaj, a B.Tech IT student from Bengaluru. I build full-stack web apps and take on freelance web work.  
 I'm currently building MERN projects, including a real-time ASCII art converter  
 I'm also working on a resume analyser that scores resumes against job descriptions  
 I'm learning Linux administration and automation  
 I'm looking for SDE internships and freelance web development work  
 Ask me about React, Node.js, MongoDB and web dev
-
-<br clear="right"/>
 
 [![GitHub](https://img.shields.io/badge/GitHub-090909?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pankajt25)
 [![Email](https://img.shields.io/badge/Email-E53E3E?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pankajtike2005@gmail.com)
@@ -33,6 +31,8 @@ Ask me about React, Node.js, MongoDB and web dev
 ![Linux](https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
+<br clear="right"/>
+
 # GitHub Stats
 
 <img src="https://github.com/pankajt25/pankajt25/raw/main/assets/stats.svg" width="100%" alt="GitHub stats">
@@ -48,4 +48,14 @@ Ask me about React, Node.js, MongoDB and web dev
 
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&amp;theme=radical" width="100%" alt="Random dev quote">
 
-<img src="https://raw.githubusercontent.com/pankajt25/assets/main/gifs/banner-bottom.gif" width="100%" alt="Banner">
+# 🚀 Projects:
+
+<img align="right" width="180" src="https://raw.githubusercontent.com/pankajt25/assets/main/gifs/banner-bottom.gif" alt="gif">
+
+**[WebGuard](https://github.com/pankajt25/WebGuard-scrapeverse)** · Node.js, Express, React, GitHub Actions  
+A price and stock tracker whose scraper fixes itself. When a store redesigns its page and the data comes back empty, WebGuard catches it and triggers Bright Data's AI self-heal on its own. GitHub Actions runs the whole loop every 6 hours. Built for the Into the Scrape-Verse hackathon.
+
+**[Cerebro](https://github.com/pankajt25/Cerebro)** · Python, Streamlit, FalkorDB, Groq, Tavily  
+A research agent that remembers. It searches the web, pulls out entities and facts with an LLM, and stores them as a knowledge graph in FalkorDB. Ask something related later and it recalls what it learned in earlier sessions. Built for the FalkorDB Graph Hacks.
+
+<br clear="right"/>
