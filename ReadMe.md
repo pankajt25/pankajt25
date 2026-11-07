@@ -41,7 +41,7 @@ Ask me about React, Node.js, MongoDB and web dev
 <table>
 <tr>
 <td width="50%" align="center"><img src="assets/beauty2.gif" width="100%" alt="left gif"></td>
-<td width="50%" align="center"><img src="https://raw.githubusercontent.com/pankajt25/assets/main/gifs/right.gif" width="100%" alt="right gif"></td>
+<td width="50%" align="center"><img src="assets/ghho.gif" width="100%" alt="right gif"></td>
 </tr>
 </table>
 
