@@ -1,4 +1,6 @@
-<img src="assets/coolCat.gif" width="100%" hight="250" alt="Banner">
+<p align="center">
+  <img src="assets/coolCat.gif" width="100%" height="250" alt="Banner">
+</p>
 
 # About Me:
 
@@ -49,4 +51,7 @@ Ask me about React, Node.js, MongoDB and web dev
 
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&amp;theme=radical" width="100%" alt="Random dev quote">
 
-<img src="assets/croc.gif" width="100%" alt="Banner">
+
+<p align="center">
+  <img src="assets/coolCat.gif" width="100%" height="250" alt="Banner">
+</p>
