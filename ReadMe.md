@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="assets/coolCat.gif" width="100%" height="250" alt="Banner">
+  <img src="assets/com.gif" width="100%" height="250" alt="Banner">
 </p>
 
 # About Me:
 
-<img align="right" width="190" src="https://raw.githubusercontent.com/pankajt25/assets/main/gifs/about.gif" alt="gif">
+<img align="right" width="190" src="" alt="gif">
 
 I'm Pankaj. I design, build and debug software, from APIs and databases to the interfaces people actually use.  
 I built [WebGuard](https://github.com/pankajt25/WebGuard-scrapeverse), a price and stock tracker whose scraper repairs itself when a site changes its layout  
@@ -42,7 +42,7 @@ Ask me about React, Node.js, MongoDB and web dev
 
 <table>
 <tr>
-<td width="50%" align="center"><img src="assets/beauty2.gif" width="80%" alt="left gif"></td>
+<td width="50%" align="center"><img src="assets/beauty2.gif" width="70%" alt="left gif"></td>
 <td width="50%" align="center"><img src="assets/ghho.gif" width="100%" alt="right gif"></td>
 </tr>
 </table>
