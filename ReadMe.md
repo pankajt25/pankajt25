@@ -4,7 +4,7 @@
 
 # About Me:
 
-<img align="right" width="190" src="" alt="gif">
+<img align="right" width="190" src="assets/giant.gif" alt="gif">
 
 I'm Pankaj. I design, build and debug software, from APIs and databases to the interfaces people actually use.  
 I built [WebGuard](https://github.com/pankajt25/WebGuard-scrapeverse), a price and stock tracker whose scraper repairs itself when a site changes its layout  
