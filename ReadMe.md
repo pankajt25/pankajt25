@@ -53,5 +53,5 @@ Ask me about React, Node.js, MongoDB and web dev
 
 
 <p align="center">
-  <img src="assets/coolCat.gif" width="100%" height="250" alt="Banner">
+  <img src="assets/croc.gif" width="100%" height="250" alt="Banner">
 </p>
