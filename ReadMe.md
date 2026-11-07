@@ -1,4 +1,4 @@
-<img src="assets/coolCat.if" width="100%" alt="Banner">
+<img src="assets/coolCat.gif" width="100%" alt="Banner">
 
 # About Me:
 
