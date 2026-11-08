@@ -14,9 +14,9 @@ I'm learning Linux administration and automation
 I'm looking for SDE internships and freelance web development work  
 Ask me about React, Node.js, MongoDB and web dev
 
-[![GitHub](https://img.shields.io/badge/GitHub-090909?style=for-the-badge)](https://github.com/pankajt25)
-[![Email](https://img.shields.io/badge/Email-E53E3E?style=for-the-badge)](mailto:pankajtike2005@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge)](https://linkedin.com/in/pankaj-tike-48ab02324)
+[![GitHub](https://img.shields.io/badge/GitHub-090909?style=for-the-badge&v=2)](https://github.com/pankajt25)
+[![Email](https://img.shields.io/badge/Email-E53E3E?style=for-the-badge&v=2)](mailto:pankajtike2005@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&v=2)](https://linkedin.com/in/pankaj-tike-48ab02324)
 
 # 💻 Tech Stack:
 
