@@ -46,7 +46,7 @@ items = [
     (str(u["pullRequests"]["totalCount"]), "Pull requests"),
 ]
 
-stamp = datetime.datetime.now(datetime.timezone.utc).strftime('%d %b %Y')
+stamp = datetime.datetime.now(datetime.timezone.utc).strftime('%d %b %Y, %H:%M')
 W, H = 1000, 190
 cols = ""
 for n, (v, l) in enumerate(items):
