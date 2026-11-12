@@ -38,7 +38,7 @@ Ask me about React, Node.js, MongoDB and web dev
 
 # GitHub Stats
 
-<img src="https://github.com/pankajt25/pankajt25/raw/main/assets/stats.svg?v=1794447544" width="100%" alt="GitHub stats">
+<img src="https://github.com/pankajt25/pankajt25/raw/main/assets/stats.svg?v=1794476505" width="100%" alt="GitHub stats">
 
 <table>
 <tr>
